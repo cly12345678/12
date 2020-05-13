@@ -1,0 +1,74 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	background-color: #C0BBBB;
+	background-image: url(mys/timg.gif);
+}
+body header {
+	width: 1000px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	background-color: #33217E;
+	height: 50px;
+	padding-top: auto;
+	padding-bottom: 10px;
+}
+body main {
+	width: 1000px;
+	height: 500px;
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+body main nav {
+	width: 200px;
+	height: 500px;
+	float: left;
+	background-color: #AA9851;
+}
+main nav a {
+	display: block;
+	width: 70%;
+	margin-top: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 2;
+	background-color: #2E8E9E;
+	border-radius: 12;
+	border: 18;
+	color: #2847AB;
+	margin-right: auto;
+	margin-left: auto;
+}
+main nav a:hover  {
+	background-color: #376882;
+}
+
+
+body main section {
+	width: 780px;
+	height: 500px;
+	float: left;
+	margin-left: 20px;
+	background-color: #3E2F72;
+}
+main section iframe {
+	width: 100%;
+	border: none;
+	height: 100%;
+	background-color: #AB1113;
+}
+
+body footer {
+	width: 1000px;
+	height: 50px;
+	background-color: #552929;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
